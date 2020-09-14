@@ -1,44 +1,77 @@
 {
-    "name": "Anna Quincey",
-    "occupation": "Front-End Developer",
-    "location": "Vienna, AT",
-    "avatar": "avatar.jpg",
-    "pronouns": "she/her",
-    "email": "anna.quincey@gmail.com",
-    "telephone": "+01 23 456 789",
-    "website": "https://annaquincey.dev",
+    "name": "Matt Bevilacqua",
+    "occupation": "Senior Web Applications Developer & Web Accessibility Coordinator",
+    "location": "New Bedford, MA",
+    "avatar": "frown.jpeg",
+    "pronouns": "he/him",
+    "email": "thewatermethod@gmail.com",
+    "telephone": "781.588.4366",
+    "website": "https://mattbev.com",
     "skills": [
         "HTML",
         "CSS",
-        "Javascript / ES6",
-        "UI Design",
+        "Javascript",
+        "Vue",
         "React",
-        "Git"
+        "svelte",
+        "ember",
+        "jQuery",
+        "LESS",
+        "SASS",
+        "Azure",
+        "AWS",
+        "Netlify",
+        "Gulp",
+        "Webpack",
+        "Parcel",
+        "Rollup",
+        "Wordpress",
+        "Magento",
+        "Laravel",
+        "Flask",
+        "REST",
+        "GraphQL",
+        "Sendgrid",
+        "Mailgun",
+        "git",
+        "Gitlab",
+        "Github",
+        "Sourcetree",
+        "Gitkraken",
+        "Beanstalk",
+        "Bitbucket",
+        "Bootstrap",
+        "Foundation",
+        "Materialize.css",
+        "Photoshop",
+        "Illustrator",
+        "inDesign",
+        "Audacity",
+        "VS Code",
+        "Sublime Text",
+        "Atom",
+        "Notepad++",
+        "MAMP",
+        "XAMPP",
+        "WAMP",
+        "Local by Flywheel"
     ],
-    "languages": [
-        {
-            "name": "English",
-            "level": "native"
-        },
-        {
-            "name": "German",
-            "level": "fluent"
-        },
-        {
-            "name": "French",
-            "level": "basic"
-        }
-    ],
+
     "social": [
         {
             "name": "Github",
-            "user": "@annaquincey",
-            "url": "https://github.com/annaquincey"
+            "user": "@thewatermethod",
+            "url": "https://github.com/thewatermethod"
+        },
+        {
+            "name": "GitLab",
+            "user": "thewatermethod",
+            "url": "https://gitlab.com/thewatermethod"
         },
         {
             "name": "LinkedIn",
-            "user": "AnnaQncy",
-            "url": "https://www.linkedin.com/in/annaquincey"
+            "user": "Matt Bevilacqua",
+            "url": "https://www.linkedin.com/in/matt-bevilacqua-60b16b67/"
         }
     ]
 }

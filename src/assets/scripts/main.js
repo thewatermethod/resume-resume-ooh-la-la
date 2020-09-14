@@ -8,6 +8,8 @@ const onScroll = () => {
     const scrollTreshold = 200
     const isOverTreshold = window.scrollY > scrollTreshold
 
+    handleImageSwap(isOverTreshold)
+
     if (isOverTreshold) {
         document.documentElement.classList.add(scrollClassName)
     } else {
@@ -21,3 +23,18 @@ const printButton = document.querySelector('.js-print')
 printButton.addEventListener('click', () => {
     window.print()
 })
+
+// handle image swap
+const handleImageSwap = (isOverTreshold) => {
+    // get image el
+    const img = document.querySelector('.vcard__avatar.u-photo')
+
+    if (isOverTreshold) {
+        //smile
+        img.setAttribute('src', '/assets/images/smile.JPG')
+        return
+    }
+
+    //frown
+    img.setAttribute('src', '/assets/images/frown.jpeg')
+}

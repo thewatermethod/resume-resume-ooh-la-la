@@ -6,12 +6,29 @@ location: Providence, RI
 start: 2016-03-01
 ---
 
--   Play an integral role in the migration of the college's external site from Sharepoint to Wordpress
--   Develop and maintain a plethora of custom themes and plugins for said Wordpress site
--   Spearhead adoption of version control (git) and Bitbucket for deployment
--   Take the lead on Web Accessibility, forever working towards complete compliance and accessibility for everyone
--   In a self-directed fashion, consistently work to improve developer ergonomics and performance
--   Lead the adoption of newer Javascript frameworks like Vue and React (the latter being a very important part of the Wordpress/internal user ecosystem)
--   Convert the Wordpress site's custom backend controls to use the new block based Gutenberg framework
--   Develop custom web solutions using the Microsoft Sharepoint API and React for our internal site
--   Aside from all that, I also built digital signage using Raspberry Pi's and Python Flask, migrated and supported a legacy academic webapp built in Laravel and Backbone, wrote serverless Azure functions in Python and in Node to support various other business needs, and I am always looking for a fun way to try something new and stretch my developer muscles.
+-   Migrate the college's external site from Sharepoint to WordPress
+-   Develop custom WordPress themes
+-   Develop dozens of WordPress blocks and plugins
+-   Lead the migration of the WordPress editor experience into the modern React-based Gutenberg editor
+-   Lead the adoption of version control and change management
+-   Integrate version control into the deployment chain
+-   Lead the college's Web Accessibility efforts as the Web Accessibility Coordinator
+-   Push the Web Services team to adopt modern tooling from Gulp to Webpack
+-   Develop custom solutions for Microsoft Sharepoint using Typescript and React
+-   Modernize legacy front end Javascript by converting jQuery to vanilla Javascript
+-   Create serverless functions to offload tasks from WordPress to Azure
+-   Support legacy academic app written in Laravel
+-   Create digital signage using Raspberry Pi & Python/Flask
+
+#### Tech Stack
+
+-   WordPress
+-   Sharepoint
+-   Javascript/Typescript
+-   php
+-   mySQL
+-   Serverless functions (Node + Python)
+-   Azure
+-   React/Vue/Svelte
+-   Git (Github/Bitbucket)
+-   and more!

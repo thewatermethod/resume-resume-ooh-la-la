@@ -28,13 +28,21 @@ printButton.addEventListener('click', () => {
 const handleImageSwap = (isOverTreshold) => {
     // get image el
     const img = document.querySelector('.vcard__avatar.u-photo')
+    const src = img.getAttribute('src')
 
     if (isOverTreshold) {
         //smile
-        img.setAttribute('src', '/assets/images/smile.JPG')
+        const smile = '/assets/images/smile.JPG'
+        if (src != smile) {
+            img.setAttribute('src', smile)
+        }
+
         return
     }
 
     //frown
-    img.setAttribute('src', '/assets/images/frown.jpeg')
+    const frown = '/assets/images/frown.jpeg'
+    if (src != frown) {
+        img.setAttribute('src', frown)
+    }
 }

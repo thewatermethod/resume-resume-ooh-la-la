@@ -1,6 +1,15 @@
 {%- set absolutePageUrl -%}{{ page.url | url | absoluteUrl(meta.url) }}{%- endset -%}
-{%- set pageTitle -%}{{ author.name }}{% if author.occupation %} - {{ author.occupation }}{% endif %}{% if author.location %} in {{ author.location }}{% endif %}{%- endset -%}
-{%- set pageDescription -%}Online Resume of {{ author.name }}{%- endset -%}
+{%- set pageTitle -%}{{ author.name }}
+{% if author.occupation %}
+    -
+    {{ author.occupation }}
+{% endif %}
+{% if author.location %}
+    in
+    {{ author.location }}
+{% endif %}{%- endset -%}
+{%- set pageDescription -%}Online Resume of
+{{ author.name }}{%- endset -%}
 
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -36,21 +45,24 @@
 {# JSON LD #}
 <script type="application/ld+json">
     {
-        "name":"{{ author.name }}",
-        "description":"{{ author.occupation }}{% if author.location %} in {{ author.location }}{% endif %}",
+        "name": "{{ author.name }}",
+        "description": "{{ author.occupation }}{% if author.location %} in {{ author.location }}{% endif %}",
         "author": {
-            "@type":"Person",
-            "name":"{{ author.name }}"
+            "@type": "Person",
+            "name": "{{ author.name }}"
         },
-        "@type":"WebSite",
-        "url":"{{ meta.url }}",
-        "image":"{{ meta.url }}/assets/images/{{ author.avatar }}",
-        "headline":"{{ author.name }}",
-        "sameAs":[
+        "@type": "WebSite",
+        "url": "{{ meta.url }}",
+        "image": "{{ meta.url }}/assets/images/{{ author.avatar }}",
+        "headline": "{{ author.name }}",
+        "sameAs": [
             {%- for social in author.social -%}
                 "{{ social.url }}"{%- if not loop.last -%},{%- endif -%}
             {%- endfor -%}
         ],
-        "@context":"http://schema.org"
+        "@context": "http://schema.org"
     }
 </script>
+
+{# preload image for the scroll swap image effect #}
+<link rel="preload" href="/assets/images/frown.jpeg" as="image">

@@ -19,9 +19,10 @@ body {
     .sidebar {
         grid-area: sidebar;
         background-color: $primary-color;
-        background-size: 400%;
+        background-size: 600%;
         background-position: 0 0;
-        background-image: linear-gradient(
+        background-image: radial-gradient(
+            circle,
             cornflowerblue 0%,
             darkslategray,
             lightpink,
@@ -32,7 +33,7 @@ body {
             purple 100%
         );
         /* Animation */
-        animation-duration: 6s;
+        animation-duration: 14s;
         animation-iteration-count: infinite;
         animation-name: gradients;
     }

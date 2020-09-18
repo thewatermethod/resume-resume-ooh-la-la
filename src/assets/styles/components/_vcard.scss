@@ -15,6 +15,7 @@
         margin-bottom: 1rem;
     }
     &__avatar {
+        display: none;
         width: 11rem;
         height: 11rem;
         flex: 0 0 11rem;
@@ -35,7 +36,7 @@
 
         @include hover-focus {
             text-decoration: none;
-            
+
             .vcard__link-text {
                 text-decoration: underline;
             }

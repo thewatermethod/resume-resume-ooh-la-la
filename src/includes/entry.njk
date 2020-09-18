@@ -3,13 +3,15 @@
         <h3 class="entry__title p-name">{{ entry.data.title }}</h3>
         
         <p class="entry__time">
-            <time class="dt-start" datetime="{{ entry.data.start | dateToFormat("yyyy-MM-dd") }}">
-                {{ entry.data.start | dateToFormat("MM/yyyy") }}
-            </time>
-            <span>&ndash;</span>
+            {% if entry.data.start %}
+                <time class="dt-start" datetime="{{ entry.data.start | dateToFormat("yyyy-MM-dd") }}">
+                    {{ entry.data.start | dateToFormat("yyyy") }}
+                </time>
+                <span>&ndash;</span>
+            {% endif %}
             {% if entry.data.end %}
                 <time class="dt-end" datetime="{{ entry.data.end | dateToFormat("yyyy-MM-dd") }}">
-                    {{ entry.data.end | dateToFormat("MM/yyyy") }}
+                    {{ entry.data.end | dateToFormat("yyyy") }}
                 </time>
             {% else %}
                 <span>{{ strings.labels.present }}</span>

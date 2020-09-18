@@ -13,7 +13,7 @@ start: 2016-03-01
 -   Lead the adoption of version control and change management
 -   Integrate version control into the deployment chain
 -   Lead the college's Web Accessibility efforts as the Web Accessibility Coordinator
--   Push the Web Services team to adopt modern tooling from Gulp to Webpack
+-   Push our team to adopt modern development tools, specifically Gulp and Webpack
 -   Develop custom solutions for Microsoft Sharepoint using Typescript and React
 -   Modernize legacy front end Javascript by converting jQuery to vanilla Javascript
 -   Create serverless functions to offload tasks from WordPress to Azure

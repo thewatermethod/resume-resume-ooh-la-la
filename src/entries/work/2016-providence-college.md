@@ -1,5 +1,5 @@
 ---
-title: Senior Web Developer/Web Accesibility Coordinator
+title: Senior Web Developer/Web Accessibility Coordinator
 organization: Providence College
 organizationUrl: https://www.providence.edu
 location: Providence, RI

@@ -6,6 +6,7 @@ location: Providence, RI
 start: 2016-03-01
 ---
 
+-   Interface directly with stakeholders across campus, working with faculty, students, and other administrative offices to complete projects in a timely and independent manner
 -   Migrated the college's external site from Sharepoint to WordPress
 -   Developed many custom WordPress themes, blocks, and plugins and led the migration of the WP editor experience into the modern React-based Gutenberg editor
 -   Introduced and lead the adoption of version control and change management, including integrating version control into the deployment chain

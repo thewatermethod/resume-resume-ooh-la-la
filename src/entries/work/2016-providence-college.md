@@ -10,11 +10,13 @@ start: 2016-03-01
 -   Migrated the college's external site from Sharepoint to WordPress
 -   Developed many custom WordPress themes, blocks, and plugins and led the migration of the WP editor experience into the modern React-based Gutenberg editor
 -   Introduced and lead the adoption of version control and change management, including integrating version control into the deployment chain
+-   Introduced and current leading the adoption of e2e and unit testing (our current stack includes Jest, phpunit, and Puppeteer)
 -   Developed and lead the college’s Web Accessibility implementation plan
+-   Wrote complete accessibility documentation for the college's web editors
 -   Pushed our team to adopt modern development tools, including Gulp and Webpack
 -   Developed custom solutions for Microsoft Sharepoint using Typescript and React
 -   Modernized legacy front end Javascript by converting jQuery to vanilla Javascript
--   Created serverless functions to offload tasks from WordPress to Azure
+-   Created serverless Node functions to offload tasks from WordPress to Azure
 -   Migrated third-party legacy academic app written in Laravel to an on campus environment, and acted as a mentor and primary support to junior developer tasked with maintaining
 -   Created digital signage using Raspberry Pi & Python/Flask
 

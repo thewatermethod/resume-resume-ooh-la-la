@@ -78,6 +78,10 @@
         border: 0;
     }
 
+    .entry__content {
+        max-width: 100ch;
+    }
+
     .entrylist::before,
     .entrylist__item::before,
     .bulletlist li::before {

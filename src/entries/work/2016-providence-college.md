@@ -11,7 +11,7 @@ start: 2016-03-01
 -   Migrated the college's external site from Sharepoint to WordPress
 -   Developed many custom WordPress themes, blocks, and plugins and led the migration of the WP editor experience into the modern React-based Gutenberg editor
 -   Introduced and lead the adoption of version control and change management, including integrating version control into the deployment chain
--   Introduced and currently leading the adoption of e2e and unit testing (current stack includes Jest, phpunit, Browserstack, and Puppeteer)
+-   Introduced led the adoption of e2e and unit testing (current stack includes Jest, phpunit, Browserstack, and Puppeteer)
 -   Wrote complete accessibility documentation for the college's web editors
 -   Pushed our team to adopt modern development tools, including Gulp and Webpack
 -   Developed custom solutions for Microsoft Sharepoint using Typescript and React

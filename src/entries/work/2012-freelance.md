@@ -7,8 +7,7 @@ start: 2012-06-01
 # end: 2020-03-14
 ---
 
--   Created custom WordPress themes & plugins depending on the need of the clients
--   Troubleshoot software on a variety of platforms, including Magento, Shopify, WordPress, custom CMS, and static web content
--   Act as a project manager when working with other developers and graphic designers
--   Migrate legacy content into new hosting and technology environments
--   Provide support for Google and Facebook integrations
+-   Created custom WordPress themes & plugins, executing on client requirements
+-   Troubleshot software on a variety of platforms, including Magento, Shopify, WordPress, custom CMS, and static web content
+-   Project managed other developers and graphic designers where applicable
+-   Oversaw and executed legacy content migration into new hosting and technology environments

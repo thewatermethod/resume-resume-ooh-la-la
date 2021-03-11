@@ -7,15 +7,16 @@ start: 2013-08-01
 end: 2016-02-01
 ---
 
--   Administrated several busy ecommerce websites built on the Magento platform
--   Oversaw transition of legacy websites to a modern responsive design
--   Created and implemented new strategies for Search Engine Optimization/social media integration
--   Hand coded responsive e-mails, landing pages, and anything else that needed coding
--   Oversaw the movement from paper to digital accounting software
+-   Administrated several high traffic ecommerce websites built on the Magento platform
+-   Developed custom solutions for the Magento platform
+-   Worked closely with a third party agency to manage the transition of legacy websites to a modern responsive design
+-   Created UX, UI and front-end content inclusive of copy, marketing, visuals, and other customer-facing elements
+-   Created and implemented new strategies for SEO/SMO
+-   Hard-coded responsive emails, landing pages, and other customer facing products
 -   Oversaw implementation of an automated inventory system, integrating with our CMS and accounting software
 -   Interfaced with warehouse, bookkeeper, and sales personnel to create successful workflows to reflect these new products
--   Created UX, UI and front-end content inclusive of copy, marketing, visuals, and other customer-facing elements
 -   Provided IT support for the sales office and associated warehouse
+-   Oversaw transition from manual to digital accounting software
 
 #### Tech Stack
 

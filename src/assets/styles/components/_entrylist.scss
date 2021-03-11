@@ -47,10 +47,12 @@
     */
 
     h4 {
-        margin: $spacing-y auto;
+        margin: 1rem auto;
     }
 
     h4 + ul {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
         list-style-type: disc;
         margin-left: $spacing-x;
     }

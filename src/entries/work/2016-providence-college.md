@@ -6,7 +6,7 @@ location: Providence, RI
 start: 2016-03-01
 ---
 
--   Developed and lead the college’s Web Accessibility implementation plan
+-   Developed and led the college’s Web Accessibility implementation plan
 -   Modernized legacy front end Javascript by converting jQuery to vanilla Javascript/es6/web components
 -   Created serverless Node microservices to offload tasks from WordPress to Azure
 -   Interface directly with stakeholders across campus, working with faculty, students, and other administrative offices to complete projects in a timely and independent manner

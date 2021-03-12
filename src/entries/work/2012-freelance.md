@@ -8,6 +8,7 @@ start: 2012-06-01
 ---
 
 -   Created custom WordPress themes & plugins, executing on client requirements
+-   Took advantage of the burgeoning JAMstack ecosystem to create static Nuxt, Eleventy, and Gatsby sites, creating content with headless WordPress, Contentful, and Sanity, and hosting that content on Netlify and Heroku
 -   Troubleshot software on a variety of platforms, including Magento, Shopify, WordPress, custom CMS, and static web content
 -   Project managed other developers and graphic designers where applicable
 -   Oversaw and executed legacy content migration into new hosting and technology environments

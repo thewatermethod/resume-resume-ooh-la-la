@@ -22,6 +22,6 @@ end: 2016-02-01
 
 -   Magento
 -   WordPress
--   jQuery/Javascript,
+-   jQuery/Javascript
 -   php
 -   mySQL

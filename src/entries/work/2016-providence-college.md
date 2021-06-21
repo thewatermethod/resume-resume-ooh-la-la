@@ -4,6 +4,7 @@ organization: Providence College
 organizationUrl: https://www.providence.edu
 location: Providence, RI
 start: 2016-03-01
+end: 2021-05-01
 ---
 
 -   Developed and led the college’s Web Accessibility implementation plan

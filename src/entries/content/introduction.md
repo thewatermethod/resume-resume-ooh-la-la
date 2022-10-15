@@ -3,4 +3,4 @@ tags: introduction
 title: About Me
 ---
 
-I am a web developer with 10 years of experience. I have worked on many different platforms and parts of web applications. I have directed my focus on Javascript and accessibility, but I am proficient in all layers of the stack. I am enthusiastic and knowledgeable and looking for a new challenge in a creative and fast-paced environment.
+I'm been a web developer, software engineer, or webmaster for the last decade. I've worked in a variety of different industries, including ecommerce, education, and civic technology. Over the years, I've developed a passion for accessibility, problem solving, and building high quality user interfaces and web applications. I'm always looking for new opportunities to learn and grow as a professional, and make the most positive impact with my work that I possibly can.

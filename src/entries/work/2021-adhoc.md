@@ -21,3 +21,6 @@ start: 2021-05-01
 -   Sequelize
 -   Circle CI
 -   Github
+-   Jest
+-   Cucumber
+-   Axe

@@ -29,7 +29,10 @@ end: 2021-05-01
 -   Sharepoint
 -   Javascript/Typescript
 -   php
+-   Laravel
 -   mySQL
--   Serverless functions (Node + Python)
+-   Serverless functions
+-   Node
+-   Python
 -   Azure
 -   Git (Github/Bitbucket)

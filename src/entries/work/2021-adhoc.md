@@ -1,5 +1,5 @@
 ---
-title: Software Engineer III
+title: Senior Software Engineer & Accesibility Specialist
 organization: Ad Hoc LLC
 organizationUrl: https://www.providence.edu
 location: Washington, DC

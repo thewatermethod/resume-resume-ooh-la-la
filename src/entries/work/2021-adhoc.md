@@ -5,10 +5,13 @@ organizationUrl: https://www.providence.edu
 location: Washington, DC
 start: 2021-05-01
 ---
-- Develop and maintain web applications for the Office of Head Start, written primarily in React
-- Use brand guideines to ensure visual and brand consistency with other US government agencies
-- Write unit tests and observe other best practices like accessibility and security to prouce code that is throughly tested and secure
-- Work with fellow team members and client stakeholders using agile methodology to iterate and evolve project based on up to date feedback
+
+-   Develop and maintain a data-driven web Javascript application for the Office of Head Start
+-   Build graphical dashboards in React, served by a backend written in Node and Postgres
+-   Work closely with designers to apply brand guideines to ensure visual and brand consistency with other US government agencies
+-   Serve as the accessibility specialist for the engineering team, ensuring both quality and compliance
+-   Maintain the dev-ops pipeline by using CircleCI, bash scripts, Github, Cucumber, Jest, Axe, and Puppeteer
+-   Work with fellow team members and client stakeholders using agile methodology to iterate and evolve project based on up to date feedback
 
 #### Tech Stack
 
@@ -18,4 +21,3 @@ start: 2021-05-01
 -   Sequelize
 -   Circle CI
 -   Github
-

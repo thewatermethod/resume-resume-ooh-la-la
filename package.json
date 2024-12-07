@@ -17,24 +17,11 @@
   "dependencies": {
     "@11ty/eleventy": "^3.0.0",
     "@11ty/eleventy-fetch": "^5.0.1",
-    "@babel/core": "^7.13.0",
-    "@babel/plugin-transform-runtime": "^7.13.10",
-    "@babel/preset-env": "^7.13.12",
-    "babel-loader": "^8.2.2",
-    "clean-css": "^5.1.2",
-    "critical": "^3.0.0",
-    "cssesc": "^3.0.0",
-    "del-cli": "^3.0.1",
+    "critical": "^7.2.1",
     "html-minifier": "^4.0.0",
     "luxon": "^1.28.1",
     "markdown-it": "^13.0.0",
-    "memfs": "^3.2.0",
     "mime": "^2.4.4",
-    "npm-run-all": "^4.1.5",
-    "svg-sprite": "^1.5.0",
-    "webpack": "^5.76.0"
-  },
-  "devDependencies": {
-    "cross-env": "^7.0.3"
+    "svg-sprite": "^2.0.4"
   }
 }

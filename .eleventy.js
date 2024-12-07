@@ -1,6 +1,5 @@
 const markdownIt = require('markdown-it')
 const filters = require('./utils/filters.js')
-const transforms = require('./utils/transforms.js')
 const shortcodes = require('./utils/shortcodes.js')
 const iconsprite = require('./utils/iconsprite.js')
 
@@ -8,11 +7,6 @@ module.exports = function (config) {
     // Filters
     Object.keys(filters).forEach((filterName) => {
         config.addFilter(filterName, filters[filterName])
-    })
-
-    // Transforms
-    Object.keys(transforms).forEach((transformName) => {
-        config.addTransform(transformName, transforms[transformName])
     })
 
     // Shortcodes

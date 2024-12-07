@@ -2,7 +2,6 @@ const fs = require('fs')
 const path = require('path')
 const mime = require('mime/lite')
 const { DateTime } = require('luxon')
-const isEmpty = require('lodash/isEmpty')
 
 module.exports = {
     dateToFormat: function (date, format) {
@@ -44,7 +43,7 @@ module.exports = {
 
     themeColors: function (colors) {
         let style = ''
-        if (!colors || isEmpty(colors)) {
+        if (!colors) {
             return ''
         }
         if (colors.primary) {

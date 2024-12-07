@@ -1,23 +1,12 @@
-const pluginRss = require('@11ty/eleventy-plugin-rss')
 const markdownIt = require('markdown-it')
-
 const filters = require('./utils/filters.js')
-const transforms = require('./utils/transforms.js')
 const shortcodes = require('./utils/shortcodes.js')
 const iconsprite = require('./utils/iconsprite.js')
 
 module.exports = function (config) {
-    // Plugins
-    config.addPlugin(pluginRss)
-
     // Filters
     Object.keys(filters).forEach((filterName) => {
         config.addFilter(filterName, filters[filterName])
-    })
-
-    // Transforms
-    Object.keys(transforms).forEach((transformName) => {
-        config.addTransform(transformName, transforms[transformName])
     })
 
     // Shortcodes
@@ -72,6 +61,7 @@ module.exports = function (config) {
     config.addPassthroughCopy('src/robots.txt')
     config.addPassthroughCopy('src/assets/images')
     config.addPassthroughCopy('src/assets/fonts')
+    config.addPassthroughCopy('src/assets/styles')
 
     // Deep-Merge
     config.setDataDeepMerge(true)

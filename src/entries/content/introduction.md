@@ -3,4 +3,4 @@ tags: introduction
 title: About Me
 ---
 
-Over the last ten plus years, I've been a web developer, software engineer, and webmaster. I've worked in a variety of different industries, including ecommerce, education, and civic technology. I have a passion for accessibility, problem solving, and building high quality user interfaces and web applications. I'm looking for new challenges to grow as a professional and to make a positive impact with my work.
+Experienced software engineer and web developer with over 10 years in building high-quality, accessible web applications across diverse industries, including ecommerce, education, and civic technology. Passionate about accessibility, problem-solving, and user-centric design. Proven track record working on agile development teams, mentoring engineers, and implementing modern development practices to drive successful outcomes. Seeking to contribute my expertise in creating innovative and accessible solutions to a forward-thinking organization.
